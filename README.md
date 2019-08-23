@@ -61,11 +61,21 @@ The performance of our model both trained and tested on this subset (i.e., 80%:2
 If you use this dataset in your research, please cite our paper as follows:
 
 ```
-@inproceedings{huimin2019scaling,
-  title={Scaling Up Open Tagging from Tens to Thousands: Comprehension Empowered Attribute Value Extraction from Product Title},
-  author={Huimin Xu, Wenting Wang, Xin Mao, Xinyu Jiang and Man Lan},
-  booktitle={Proceedings of ACL},
-  year={2019}
+@inproceedings{xu-acl2019-scaling,
+    title = "Scaling up Open Tagging from Tens to Thousands: Comprehension Empowered Attribute Value Extraction from Product Title",
+    author = "Xu, Huimin  and
+      Wang, Wenting  and
+      Mao, Xin  and
+      Jiang, Xinyu  and
+      Lan, Man",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/P19-1514",
+    pages = "5214--5223",
+    abstract = "Supplementing product information by extracting attribute values from title is a crucial task in e-Commerce domain. Previous studies treat each attribute only as an entity type and build one set of NER tags (e.g., BIO) for each of them, leading to a scalability issue which unfits to the large sized attribute system in real world e-Commerce. In this work, we propose a novel approach to support value extraction scaling up to thousands of attributes without losing performance: (1) We propose to regard attribute as a query and adopt only one global set of BIO tags for any attributes to reduce the burden of attribute tag or model explosion; (2) We explicitly model the semantic representations for attribute and title, and develop an attention mechanism to capture the interactive semantic relations in-between to enforce our framework to be attribute comprehensive. We conduct extensive experiments in real-life datasets. The results show that our model not only outperforms existing state-of-the-art NER tagging models, but also is robust and generates promising results for up to 8,906 attributes.",
 }
 ```
 
