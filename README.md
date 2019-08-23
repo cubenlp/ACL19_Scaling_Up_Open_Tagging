@@ -1,5 +1,5 @@
 # Scaling Up Open Tagging from Tens to Thousands: Comprehension Empowered Attribute Value Extraction from Product Title 
-This repo contains a subset of the dataset used in ACL2019 research paper ["Scaling Up Open Tagging from Tens to Thousands: Comprehension Empowered Attribute Value Extraction from Product Title"](url).
+This repo contains a subset of the dataset used in ACL2019 research paper ["Scaling Up Open Tagging from Tens to Thousands: Comprehension Empowered Attribute Value Extraction from Product Title"](https://www.aclweb.org/anthology/P19-1514).
 
 We release this dataset only for acdemic research use. Please cite our paper if you use this dataset in research. For any questions, please contact Prof. Lan at `mlan@cs.ecnu.edu.cn`. 
 
